@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  margin: 60px 0;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.menu a{
+  color: var(--cor-3);
+}
+
+.menu li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--cor-1);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.menu li:hover::after,
+.menu li.ativo::after {
+  width: 5%;
+}
+
+.menu-login {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--cor-1);
+}
+
+.login {
+  position: relative;
+  bottom: 6px;
+  color: var(--cor-1);
+}
+
+.login img {
+  position: relative;
+  bottom: -6px;
+  margin-right: 5px;
+}
+
+.inscreva {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid var(--cor-9);
+  color: var(--cor-2);
+}

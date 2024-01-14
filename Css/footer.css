@@ -1,0 +1,70 @@
+footer {
+  background: url('../Imagens/fundo-footer-teste-programador.png.jpg') no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  margin: auto -80px;
+}
+
+.f-divPrincipal {
+  margin: 0 80px;
+  display: flex;
+  color: var(--cor-5);
+  justify-content: space-between;
+}
+
+.f-divPrincipal div {
+  margin-top: 60px;
+}
+
+.div1 li {
+  margin-bottom: 20px;
+}
+
+.div1 li img {
+  margin-right: 7px;
+  position: relative;
+  top: 7px;
+}
+
+.div1-logo img {
+  width: 90px;
+}
+
+.div2 li,
+.div2 h3 {
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+
+.div3 li,
+.div3 h3 {
+  margin-bottom: 20px;
+}
+
+.f-divisoria {
+  border: 1px solid var(--cor-3);
+  width: 1191px;
+  margin: 10px auto 10px auto;
+}
+
+.direitosAut {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.direitosAut p {
+  margin-left: 80px;
+}
+
+.direitosAut ul {
+  margin-right: 80px;
+}
+
+.direitosAut li {
+  display: inline-flex;
+  margin-left: 38px;
+  color: var(--cor-5);
+}

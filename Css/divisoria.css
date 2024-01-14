@@ -1,0 +1,35 @@
+.divisoria {
+  display: flex;
+}
+
+.divisoria div {
+  margin: auto;
+}
+
+.divisoria p {
+  word-break: keep-all;
+}
+
+.txt {
+  margin: 20px 0;
+}
+
+.div-conteudo a {
+  color: var(--cor-2);
+  font-size: 18px;
+}
+
+.divCar {
+  position: relative;
+  width: 47%;
+  right: 80px;
+}
+
+.div-linha {
+  position: relative;
+  bottom: 80px;
+}
+
+.imagemCar {
+  width: 50vw;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --cor-1: #5713a7;
+  --cor-2: #2679fa;
+  --cor-3: #83819d;
+  --cor-4: #4e86f1;
+  --cor-5: #fbfcf8;
+  --cor-6: #83819d;
+  --cor-7: #27e0fc;
+  --cor-8: #527ef2;
+  --cor-9: #d4e3fa;
+}
+
+body {
+  margin: 0px 80px;
+}
+
+h2 {
+  color: var(--cor-1);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+p {
+  color: var(--cor-3);
+  word-wrap: break-word;
+  font-size: 18px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.animeLeft {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.animeLeft-on {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+}

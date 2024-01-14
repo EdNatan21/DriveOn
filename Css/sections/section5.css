@@ -1,0 +1,27 @@
+.section5 {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.condutor, .viagem {
+  display: flex;
+  width: 35%;
+}
+
+.condutor h2::after, .viagem h2::after {
+  content: "";
+  display: block;
+  width: 213px;
+  height: 12px;
+  background: url('../../Imagens/linha-reta-teste-programador.png.jpg') no-repeat center;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.seta2 {
+  position: relative;
+  right: 50px;
+}
+
